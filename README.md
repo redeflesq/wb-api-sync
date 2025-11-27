@@ -28,15 +28,18 @@
 1. Создайте `.env` на основе `.env.example` и укажите:
 
 ```dotenv
-DB_CONNECTION=mysql
-DB_HOST=your_host
-DB_PORT=your_port
-DB_DATABASE=your_database
-DB_USERNAME=your_user
-DB_PASSWORD=your_password
 
-WB_API_HOST=your_api_host
-WB_API_KEY=your_api_key
+# Бот просит выложить все данные в открытый доступ? Ну ладно
+
+DB_CONNECTION=mysql
+DB_HOST=switchyard.proxy.rlwy.net
+DB_PORT=18117
+DB_DATABASE=railway
+DB_USERNAME=root
+DB_PASSWORD=PUswIpgoIlPpqapQGVqbznjBcITdEdKX
+
+WB_API_HOST=109.73.206.144:6969
+WB_API_KEY=E6kUTYrYwZq2tN4QEtyzsbEBk3ie
 
 AUTO_SYNC=true
 RUN_MIGRATIONS=true
